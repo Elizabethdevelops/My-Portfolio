@@ -1,0 +1,76 @@
+/* CSS for #header */
+#header {
+    background-color: #592E83;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-size:1.5rem;
+  }
+  
+  #header-content {
+    width: 94%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 4;
+    font-size: 1.1rem;
+  }
+  
+  #nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #nav ul li a:hover {
+    color: #FF0000;
+  }
+  
+  /* CSS for #about */
+  #about {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #about .red-text {
+    color: #FF0000;
+  }
+  
+  /* CSS for #skills */
+  #skills {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* CSS for #projects */
+  #projects {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* CSS for #contact */
+  #contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* CSS for footer */
+  footer {
+    width: 100%;
+    padding: 1rem 0;
+    background-color: #FF0000;
+    color: white;
+    text-align: center;
+  }
+  
